@@ -94,7 +94,9 @@ const Home = ({ name, title }) => {
           detectRetina: true,
         }}
       />
-      <div style={{ color: "white", position: "absolute", top: "5rem", left: "2rem", width: "80rem" }}>
+      <div
+        style={{ color: "white", position: "absolute", top: "5rem", left: "2rem", width: "80rem" }}
+      >
         <h1>{name}</h1>
         <h2>{title}</h2>
       </div>

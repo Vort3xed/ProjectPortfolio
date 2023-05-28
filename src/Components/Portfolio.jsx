@@ -78,7 +78,9 @@ const Portfolio = () => {
           ))}
         </div>
       </div>
-      <p style={{ padding: "1rem 3rem 0", alignSelf: "center" }}>"What was God doing before the divine creation?" - Stephen Hawking</p>
+      <p style={{ padding: "1rem 3rem 0", alignSelf: "center" }}>
+      &quot;What was God doing before the divine creation?&quot; - Stephen Hawking
+      </p>
     </section>
   );
 };

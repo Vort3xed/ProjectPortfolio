@@ -5,13 +5,15 @@ import image from "../images/fadebg.jpg";
 
 const imageAltText = "purple and blue abstract background";
 
-const description = "I am a student at Poolesville High School, currently enrolled in the SMCS magnet program. I enjoy computer programming and cyber security.";
+const description =
+  "I am a student at Poolesville High School, currently enrolled in the SMCS magnet program. I enjoy computer programming and cyber security.";
 
 const languagesList = ["Java", "Python", "HTML/CSS", "JavaScript", "React", "SQL"]
 
 const skillsList = ["Penetration Testing","Web Development","Machine Learning","Cryptography","Forensics"];
 
-const detailOrQuote = "I explore cyber security as a passion and wish to pursue it as a career in the future. I want to use my knowledge to secure our rapidly advancing cyberspace.";
+const detailOrQuote =
+  "I explore cyber security as a passion and wish to pursue it as a career in the future. I want to use my knowledge to secure our rapidly advancing cyberspace.";
 
 const About = () => {
   return (
@@ -29,6 +31,22 @@ const About = () => {
       >
         <h2>About Myself</h2>
         <p className="large">{description}</p>
+        <hr />
+        <ul
+          style={{
+            textAlign: "left",
+            columns: 2,
+            fontSize: "1.25rem",
+            margin: "2rem 3rem",
+            gap: "3rem",
+          }}
+        >
+          {languagesList.map((language) => (
+            <li key={language}>{language}</li>
+          ))}
+        </ul>
+        
+        <h2>Skills</h2>
         <hr />
         <ul
           style={{
