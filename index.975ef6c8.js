@@ -27152,7 +27152,7 @@ var _portfolioDefault = parcelHelpers.interopDefault(_portfolio);
 var _stylesCss = require("./styles.css");
 const siteProps = {
     name: "Agneya Tharun",
-    title: "Full Stack and Offensive Security",
+    title: "Full Stack and Cyber Security",
     email: "agneyat2@gmail.com",
     gitHub: "https://github.com/Vort3xed",
     instagram: "https://www.instagram.com/agneya_t/",
@@ -27230,14 +27230,20 @@ var _fadebgJpg = require("../images/fadebg.jpg");
 var _fadebgJpgDefault = parcelHelpers.interopDefault(_fadebgJpg);
 const imageAltText = "purple and blue abstract background";
 const description = "I am a student at Poolesville High School, currently enrolled in the SMCS magnet program. I enjoy computer programming and cyber security.";
-const skillsList = [
+const languagesList = [
     "Java",
     "Python",
     "HTML/CSS",
     "JavaScript",
     "React",
-    "SQL",
-    "Penetration Testing"
+    "SQL"
+];
+const skillsList = [
+    "Penetration Testing",
+    "Web Development",
+    "Machine Learning",
+    "Cryptography",
+    "Forensics"
 ];
 const detailOrQuote = "I explore cyber security as a passion and wish to pursue it as a career in the future. I want to use my knowledge to secure our rapidly advancing cyberspace.";
 const About = ()=>{
@@ -27251,7 +27257,7 @@ const About = ()=>{
                 alt: imageAltText
             }, void 0, false, {
                 fileName: "src/Components/About.jsx",
-                lineNumber: 17,
+                lineNumber: 19,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27268,7 +27274,7 @@ const About = ()=>{
                         children: "About Myself"
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 28,
+                        lineNumber: 30,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27276,12 +27282,44 @@ const About = ()=>{
                         children: description
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 29,
+                        lineNumber: 31,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 30,
+                        lineNumber: 32,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                        style: {
+                            textAlign: "left",
+                            columns: 2,
+                            fontSize: "1.25rem",
+                            margin: "2rem 3rem",
+                            gap: "3rem"
+                        },
+                        children: languagesList.map((language)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                children: language
+                            }, language, false, {
+                                fileName: "src/Components/About.jsx",
+                                lineNumber: 43,
+                                columnNumber: 13
+                            }, undefined))
+                    }, void 0, false, {
+                        fileName: "src/Components/About.jsx",
+                        lineNumber: 33,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                        children: "Skills"
+                    }, void 0, false, {
+                        fileName: "src/Components/About.jsx",
+                        lineNumber: 47,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
+                        fileName: "src/Components/About.jsx",
+                        lineNumber: 48,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -27296,17 +27334,17 @@ const About = ()=>{
                                 children: skill
                             }, skill, false, {
                                 fileName: "src/Components/About.jsx",
-                                lineNumber: 41,
+                                lineNumber: 59,
                                 columnNumber: 13
                             }, undefined))
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 31,
+                        lineNumber: 49,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 44,
+                        lineNumber: 62,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27316,19 +27354,19 @@ const About = ()=>{
                         children: detailOrQuote
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 45,
+                        lineNumber: 63,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/About.jsx",
-                lineNumber: 18,
+                lineNumber: 20,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/About.jsx",
-        lineNumber: 16,
+        lineNumber: 18,
         columnNumber: 5
     }, undefined);
 };
@@ -28612,13 +28650,11 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
-// import arrowSvg from "../images/down-arrow.svg";
 var _propTypes = require("prop-types");
 var _propTypesDefault = parcelHelpers.interopDefault(_propTypes);
 var _reactTsparticles = require("react-tsparticles");
 var _reactTsparticlesDefault = parcelHelpers.interopDefault(_reactTsparticles);
 var _tsparticles = require("tsparticles");
-// import image from "../images/woman-with-tablet.jpg";
 // const imageAltText = "i wonder what this would be";
 const Home = ({ name , title  })=>{
     const particlesInit = async (main)=>{
@@ -28708,7 +28744,7 @@ const Home = ({ name , title  })=>{
                 }
             }, void 0, false, {
                 fileName: "src/Components/Home.jsx",
-                lineNumber: 28,
+                lineNumber: 25,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28717,33 +28753,33 @@ const Home = ({ name , title  })=>{
                     position: "absolute",
                     top: "5rem",
                     left: "2rem",
-                    width: "50rem"
+                    width: "80rem"
                 },
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
                         children: name
                     }, void 0, false, {
                         fileName: "src/Components/Home.jsx",
-                        lineNumber: 101,
+                        lineNumber: 98,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                         children: title
                     }, void 0, false, {
                         fileName: "src/Components/Home.jsx",
-                        lineNumber: 102,
+                        lineNumber: 99,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/Home.jsx",
-                lineNumber: 100,
+                lineNumber: 97,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/Home.jsx",
-        lineNumber: 26,
+        lineNumber: 23,
         columnNumber: 5
     }, undefined);
 };
@@ -39400,12 +39436,12 @@ const imageAltText = "its supposed to be a white backround";
 const projectList = [
     {
         title: "HeadHunterV4",
-        description: "Suite of machine learning models that can detect neurodegenerative diseases using images. These models can generate detection heatmaps and provide uncertainty classification.",
+        description: "Suite of machine learning models that can detect neurodegenerative diseases using images. These models can generate detection heatmaps and provide uncertainty classification. These models also outperform google's industry standard for autism detection.",
         url: "https://github.com/Vort3xed/HeadHunterV4"
     },
     {
         title: "FalconMailV5",
-        description: "A Java application that uses google OAUTH2.0 to rapidly send customized emails using form input.",
+        description: "A Java application that uses Google OAUTH2.0 to rapidly send customized emails using form input and log the sent emails in a spreadsheet. This application reads user written HTML templates and replaces variables in the template with form input.",
         url: "https://github.com/Vort3xed/FalconMailv5"
     },
     {
@@ -39415,8 +39451,18 @@ const projectList = [
     },
     {
         title: "SpeedShell",
-        description: "A small python application that allows users to create an undetectable python backdoor with NXcrypt and Metasploit, just with one command.",
+        description: "A small python application that allows users to create an undetectable python trojan with NXcrypt and Metasploit, just with one command.",
         url: "https://github.com/Vort3xed/SpeedShell"
+    },
+    {
+        title: "Project Portfolio",
+        description: "You're looking at it right now. This website was made using ReactJS and is hosted on GitHub Pages.",
+        url: "https://github.com/Vort3xed/ProjectPortfolio"
+    },
+    {
+        title: "Serial Plotter",
+        description: "A Java application that takes in large sets of data and visualizes it in a moving, real-time graph. This application is useful for visualizing data from microcontrollers.",
+        url: "https://github.com/Vort3xed/SerialPlotter"
     }
 ];
 const Portfolio = ()=>{
@@ -39431,7 +39477,7 @@ const Portfolio = ()=>{
                 children: "Portfolio"
             }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 44,
+                lineNumber: 56,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -39440,7 +39486,7 @@ const Portfolio = ()=>{
                 alt: imageAltText
             }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 45,
+                lineNumber: 57,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -39457,7 +39503,7 @@ const Portfolio = ()=>{
                         }
                     }, void 0, false, {
                         fileName: "src/Components/Portfolio.jsx",
-                        lineNumber: 47,
+                        lineNumber: 59,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -39479,12 +39525,12 @@ const Portfolio = ()=>{
                                             children: project.title
                                         }, void 0, false, {
                                             fileName: "src/Components/Portfolio.jsx",
-                                            lineNumber: 62,
+                                            lineNumber: 74,
                                             columnNumber: 17
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 61,
+                                        lineNumber: 73,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -39492,30 +39538,41 @@ const Portfolio = ()=>{
                                         children: project.description
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 64,
+                                        lineNumber: 76,
                                         columnNumber: 15
                                     }, undefined)
                                 ]
                             }, project.title, true, {
                                 fileName: "src/Components/Portfolio.jsx",
-                                lineNumber: 56,
+                                lineNumber: 68,
                                 columnNumber: 13
                             }, undefined))
                     }, void 0, false, {
                         fileName: "src/Components/Portfolio.jsx",
-                        lineNumber: 54,
+                        lineNumber: 66,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 46,
+                lineNumber: 58,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                style: {
+                    padding: "1rem 3rem 0",
+                    alignSelf: "center"
+                },
+                children: '"What was God doing before the divine creation?" - Stephen Hawking'
+            }, void 0, false, {
+                fileName: "src/Components/Portfolio.jsx",
+                lineNumber: 81,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/Portfolio.jsx",
-        lineNumber: 43,
+        lineNumber: 55,
         columnNumber: 5
     }, undefined);
 };
