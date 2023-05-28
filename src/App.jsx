@@ -14,7 +14,7 @@ import "./styles.css";
 
 const siteProps = {
   name: "Agneya Tharun",
-  title: "Full Stack and Offensive Security",
+  title: "Full Stack and Cyber Security",
   email: "agneyat2@gmail.com",
   gitHub: "https://github.com/Vort3xed",
   instagram: "https://www.instagram.com/agneya_t/",

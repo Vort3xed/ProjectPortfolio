@@ -3,12 +3,9 @@
  */
 
 import React from "react";
-// import arrowSvg from "../images/down-arrow.svg";
 import PropTypes from "prop-types";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
-
-// import image from "../images/woman-with-tablet.jpg";
 
 // const imageAltText = "i wonder what this would be";
 
@@ -97,7 +94,7 @@ const Home = ({ name, title }) => {
           detectRetina: true,
         }}
       />
-      <div style={{ color: "white", position: "absolute", top: "5rem", left: "2rem", width: "50rem" }}>
+      <div style={{ color: "white", position: "absolute", top: "5rem", left: "2rem", width: "80rem" }}>
         <h1>{name}</h1>
         <h2>{title}</h2>
       </div>

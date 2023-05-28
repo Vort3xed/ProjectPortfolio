@@ -15,13 +15,13 @@ const projectList = [
   {
     title: "HeadHunterV4",
     description:
-      "Suite of machine learning models that can detect neurodegenerative diseases using images. These models can generate detection heatmaps and provide uncertainty classification.",
+      "Suite of machine learning models that can detect neurodegenerative diseases using images. These models can generate detection heatmaps and provide uncertainty classification. These models also outperform google's industry standard for autism detection.",
     url: "https://github.com/Vort3xed/HeadHunterV4",
   },
   {
     title: "FalconMailV5",
     description:
-      "A Java application that uses google OAUTH2.0 to rapidly send customized emails using form input.",
+      "A Java application that uses Google OAUTH2.0 to rapidly send customized emails using form input and log the sent emails in a spreadsheet. This application reads user written HTML templates and replaces variables in the template with form input.",
     url: "https://github.com/Vort3xed/FalconMailv5",
   },
   {
@@ -33,8 +33,20 @@ const projectList = [
   {
     title: "SpeedShell",
     description:
-      "A small python application that allows users to create an undetectable python backdoor with NXcrypt and Metasploit, just with one command.",
+      "A small python application that allows users to create an undetectable python trojan with NXcrypt and Metasploit, just with one command.",
     url: "https://github.com/Vort3xed/SpeedShell",
+  },
+  {
+    title: "Project Portfolio",
+    description:
+      "You're looking at it right now. This website was made using ReactJS and is hosted on GitHub Pages.",
+    url: "https://github.com/Vort3xed/ProjectPortfolio",
+  },
+  {
+    title: "Serial Plotter",
+    description:
+      "A Java application that takes in large sets of data and visualizes it in a moving, real-time graph. This application is useful for visualizing data from microcontrollers.",
+    url: "https://github.com/Vort3xed/SerialPlotter",
   },
 ];
 
@@ -66,6 +78,7 @@ const Portfolio = () => {
           ))}
         </div>
       </div>
+      <p style={{ padding: "1rem 3rem 0", alignSelf: "center" }}>"What was God doing before the divine creation?" - Stephen Hawking</p>
     </section>
   );
 };
