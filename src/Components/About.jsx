@@ -45,23 +45,6 @@ const About = () => {
             <li key={language}>{language}</li>
           ))}
         </ul>
-        
-        <h2>Skills</h2>
-        <hr />
-        <ul
-          style={{
-            textAlign: "left",
-            columns: 2,
-            fontSize: "1.25rem",
-            margin: "2rem 3rem",
-            gap: "3rem",
-          }}
-        >
-          {languagesList.map((language) => (
-            <li key={language}>{language}</li>
-          ))}
-        </ul>
-        
         <h2>Skills</h2>
         <hr />
         <ul
