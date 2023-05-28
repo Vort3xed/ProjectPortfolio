@@ -39532,6 +39532,6 @@ $RefreshReg$(_c, "Portfolio");
 },{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/white-background.jpg":"iI15m","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iI15m":[function(require,module,exports) {
 module.exports = require("99ba2a73a755466b").getBundleURL("bLxZJ") + "white-background.953b408c.jpg" + "?" + Date.now();
 
-},{"99ba2a73a755466b":"lgJ39"}],"lW6qc":[function() {},{}]},["igKGj","1xC6H","8lqZg"], "8lqZg", "parcelRequire2041")
+},{"99ba2a73a755466b":"lgJ39"}],"lW6qc":[function() {},{}]},["igKGj","1xC6H","8lqZg"], "8lqZg", "parcelRequirea942")
 
 //# sourceMappingURL=index.975ef6c8.js.map
