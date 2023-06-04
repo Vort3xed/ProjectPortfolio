@@ -8,9 +8,9 @@ const imageAltText = "purple and blue abstract background";
 const description =
   "I am a student at Poolesville High School, currently enrolled in the SMCS magnet program. I enjoy computer programming and cyber security.";
 
-const languagesList = ["Java", "Python", "HTML/CSS", "JavaScript", "React", "SQL"]
+const languagesList = ["Java", "Python", "HTML/CSS", "JavaScript", "React.js", "Next.js", "SQL","PostgreSQL"]
 
-const skillsList = ["Penetration Testing","Web Development","Machine Learning","Cryptography","Forensics"];
+const skillsList = ["Penetration Testing","Web Development","Machine Learning","Cryptography","Forensics","Database Engineering","Linux",];
 
 const detailOrQuote =
   "I explore cyber security as a passion and wish to pursue it as a career in the future. I want to use my knowledge to secure our rapidly advancing cyberspace.";
