@@ -27235,15 +27235,19 @@ const languagesList = [
     "Python",
     "HTML/CSS",
     "JavaScript",
-    "React",
-    "SQL"
+    "React.js",
+    "Next.js",
+    "SQL",
+    "PostgreSQL"
 ];
 const skillsList = [
     "Penetration Testing",
     "Web Development",
     "Machine Learning",
     "Cryptography",
-    "Forensics"
+    "Forensics",
+    "Database Engineering",
+    "Linux"
 ];
 const detailOrQuote = "I explore cyber security as a passion and wish to pursue it as a career in the future. I want to use my knowledge to secure our rapidly advancing cyberspace.";
 const About = ()=>{
