@@ -27247,7 +27247,8 @@ const skillsList = [
     "Cryptography",
     "Forensics",
     "Database Engineering",
-    "Linux"
+    "Linux",
+    "Networking"
 ];
 const detailOrQuote = "I explore cyber security as a passion and wish to pursue it as a career in the future. I want to use my knowledge to secure our rapidly advancing cyberspace.";
 const About = ()=>{
@@ -39467,6 +39468,11 @@ const projectList = [
         title: "Serial Plotter",
         description: "A Java application that takes in large sets of data and visualizes it in a moving, real-time graph. This application is useful for visualizing data from microcontrollers.",
         url: "https://github.com/Vort3xed/SerialPlotter"
+    },
+    {
+        title: "HERCULES",
+        description: "A wifi brute-forcing tool that uses artificially intelligent wordlists to increase the chances of intrusion.",
+        url: "https://github.com/Vort3xed/HERCULES"
     }
 ];
 const Portfolio = ()=>{
@@ -39481,7 +39487,7 @@ const Portfolio = ()=>{
                 children: "Portfolio"
             }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 56,
+                lineNumber: 62,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -39490,7 +39496,7 @@ const Portfolio = ()=>{
                 alt: imageAltText
             }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 57,
+                lineNumber: 63,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -39502,12 +39508,12 @@ const Portfolio = ()=>{
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         style: {
-                            maxWidth: "40%",
+                            maxWidth: "60%",
                             alignSelf: "center"
                         }
                     }, void 0, false, {
                         fileName: "src/Components/Portfolio.jsx",
-                        lineNumber: 59,
+                        lineNumber: 65,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -39517,49 +39523,49 @@ const Portfolio = ()=>{
                                 style: {
                                     boxShadow: "1px 2px 6px 0px #888888"
                                 },
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                        href: project.url,
-                                        target: "_blank",
-                                        rel: "noopener noreferrer",
-                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                    href: project.url,
+                                    target: "_blank",
+                                    rel: "noopener noreferrer",
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
                                             style: {
                                                 flexBasis: "40px"
                                             },
                                             children: project.title
                                         }, void 0, false, {
                                             fileName: "src/Components/Portfolio.jsx",
-                                            lineNumber: 74,
+                                            lineNumber: 80,
                                             columnNumber: 17
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                            className: "small",
+                                            children: project.description
+                                        }, void 0, false, {
+                                            fileName: "src/Components/Portfolio.jsx",
+                                            lineNumber: 82,
+                                            columnNumber: 15
                                         }, undefined)
-                                    }, void 0, false, {
-                                        fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 73,
-                                        columnNumber: 15
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                        className: "small",
-                                        children: project.description
-                                    }, void 0, false, {
-                                        fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 76,
-                                        columnNumber: 15
-                                    }, undefined)
-                                ]
-                            }, project.title, true, {
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/Components/Portfolio.jsx",
+                                    lineNumber: 79,
+                                    columnNumber: 15
+                                }, undefined)
+                            }, project.title, false, {
                                 fileName: "src/Components/Portfolio.jsx",
-                                lineNumber: 68,
+                                lineNumber: 74,
                                 columnNumber: 13
                             }, undefined))
                     }, void 0, false, {
                         fileName: "src/Components/Portfolio.jsx",
-                        lineNumber: 66,
+                        lineNumber: 72,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 58,
+                lineNumber: 64,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -39570,13 +39576,13 @@ const Portfolio = ()=>{
                 children: '"What was God doing before the divine creation?" - Stephen Hawking'
             }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 81,
+                lineNumber: 88,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/Portfolio.jsx",
-        lineNumber: 55,
+        lineNumber: 61,
         columnNumber: 5
     }, undefined);
 };
