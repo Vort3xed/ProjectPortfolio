@@ -48,6 +48,12 @@ const projectList = [
       "A Java application that takes in large sets of data and visualizes it in a moving, real-time graph. This application is useful for visualizing data from microcontrollers.",
     url: "https://github.com/Vort3xed/SerialPlotter",
   },
+  {
+    title: "HERCULES",
+    description:
+      "A wifi brute-forcing tool that uses artificially intelligent wordlists to increase the chances of intrusion.",
+    url: "https://github.com/Vort3xed/HERCULES",
+  }
 ];
 
 const Portfolio = () => {
@@ -56,7 +62,7 @@ const Portfolio = () => {
       <h2 style={{ textAlign: "center" }}>Portfolio</h2>
       <img className="background" src={image} alt={imageAltText} />
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
-        <div style={{ maxWidth: "40%", alignSelf: "center" }}>
+        <div style={{ maxWidth: "60%", alignSelf: "center" }}>
           {/* <img
             src={image}
             style={{ height: "90%", width: "100%", objectFit: "cover" }}
@@ -72,8 +78,9 @@ const Portfolio = () => {
             >
               <a href={project.url} target="_blank" rel="noopener noreferrer">
                 <h3 style={{ flexBasis: "40px" }}>{project.title}</h3>
-              </a>
+              
               <p className="small">{project.description}</p>
+              </a>
             </div>
           ))}
         </div>

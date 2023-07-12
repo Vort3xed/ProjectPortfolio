@@ -26,10 +26,16 @@ html, body {
   height:100%;
 }
 
-body {
+/* body {
     background: linear-gradient(-45deg, #f33d65, #e42bdb, #21d7e4, #3385e2);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
+} */
+
+body {
+  background: linear-gradient(-45deg, #131313, #575757, #b9b9b9, #646464);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
 }
 
 @keyframes gradient {
@@ -129,7 +135,8 @@ a:hover {
 .container {
   display: grid;
   grid-gap: 20px;
-  grid-template-columns: 330px 300px;
+  /* add multiple px things for more columns */
+  grid-template-columns: 330px 330px 300px;
   margin: 20px auto;
 }
 
