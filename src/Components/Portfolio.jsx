@@ -53,6 +53,12 @@ const projectList = [
     description:
       "A wifi brute-forcing tool that uses artificially intelligent wordlists to increase the chances of intrusion.",
     url: "https://github.com/Vort3xed/HERCULES",
+  },
+  {
+    title: "PHS Cyber Lab Website",
+    description:
+      "A React.js website developed to display information and resources for my club. This website uses advanced React components and has it's own domain!",
+    url: "https://phscyberlab.org",
   }
 ];
 
