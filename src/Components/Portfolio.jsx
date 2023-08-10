@@ -61,11 +61,11 @@ const projectList = [
     url: "https://github.com/Vort3xed/PHS-Cyber-Lab",
   },
   {
-    title: "PHS Computer Team Webiste",
+    title: "PHS Computer Team Website",
     description:
       "A Next.js website that displays information about my school's computer team. This website is hosted on Vercel and has several animated features.",
     url: "https://github.com/Vort3xed/PHS-Computer-Team",
-  }
+  },
 ];
 
 const Portfolio = () => {
