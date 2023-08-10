@@ -39477,7 +39477,12 @@ const projectList = [
     {
         title: "PHS Cyber Lab Website",
         description: "A React.js website developed to display information and resources for my club. This website uses advanced React components and has it's own domain!",
-        url: "https://phscyberlab.org"
+        url: "https://github.com/Vort3xed/PHS-Cyber-Lab"
+    },
+    {
+        title: "PHS Computer Team Webiste",
+        description: "A Next.js website that displays information about my school's computer team. This website is hosted on Vercel and has several animated features.",
+        url: "https://github.com/Vort3xed/PHS-Computer-Team"
     }
 ];
 const Portfolio = ()=>{
@@ -39492,7 +39497,7 @@ const Portfolio = ()=>{
                 children: "Portfolio"
             }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 68,
+                lineNumber: 74,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -39501,7 +39506,7 @@ const Portfolio = ()=>{
                 alt: imageAltText
             }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 69,
+                lineNumber: 75,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -39518,7 +39523,7 @@ const Portfolio = ()=>{
                         }
                     }, void 0, false, {
                         fileName: "src/Components/Portfolio.jsx",
-                        lineNumber: 71,
+                        lineNumber: 77,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -39540,7 +39545,7 @@ const Portfolio = ()=>{
                                             children: project.title
                                         }, void 0, false, {
                                             fileName: "src/Components/Portfolio.jsx",
-                                            lineNumber: 86,
+                                            lineNumber: 92,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -39548,29 +39553,29 @@ const Portfolio = ()=>{
                                             children: project.description
                                         }, void 0, false, {
                                             fileName: "src/Components/Portfolio.jsx",
-                                            lineNumber: 88,
+                                            lineNumber: 94,
                                             columnNumber: 15
                                         }, undefined)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/Components/Portfolio.jsx",
-                                    lineNumber: 85,
+                                    lineNumber: 91,
                                     columnNumber: 15
                                 }, undefined)
                             }, project.title, false, {
                                 fileName: "src/Components/Portfolio.jsx",
-                                lineNumber: 80,
+                                lineNumber: 86,
                                 columnNumber: 13
                             }, undefined))
                     }, void 0, false, {
                         fileName: "src/Components/Portfolio.jsx",
-                        lineNumber: 78,
+                        lineNumber: 84,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 70,
+                lineNumber: 76,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -39581,13 +39586,13 @@ const Portfolio = ()=>{
                 children: '"What was God doing before the divine creation?" - Stephen Hawking'
             }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 94,
+                lineNumber: 100,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/Portfolio.jsx",
-        lineNumber: 67,
+        lineNumber: 73,
         columnNumber: 5
     }, undefined);
 };
