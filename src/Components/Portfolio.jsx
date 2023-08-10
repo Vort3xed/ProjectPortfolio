@@ -58,7 +58,13 @@ const projectList = [
     title: "PHS Cyber Lab Website",
     description:
       "A React.js website developed to display information and resources for my club. This website uses advanced React components and has it's own domain!",
-    url: "https://phscyberlab.org",
+    url: "https://github.com/Vort3xed/PHS-Cyber-Lab",
+  },
+  {
+    title: "PHS Computer Team Webiste",
+    description:
+      "A Next.js website that displays information about my school's computer team. This website is hosted on Vercel and has several animated features.",
+    url: "https://github.com/Vort3xed/PHS-Computer-Team",
   }
 ];
 
